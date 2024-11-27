@@ -1,0 +1,84 @@
+body{
+    
+    background-image:url(images/Black\ Myth\ Wukong\ 黑神话悟空.png) ;
+    background-position: top;
+    background-attachment: scroll;
+    background-repeat: none;
+    background-color: black;
+}
+#WUKONG{
+    font-family:Arial;
+}
+#nav{
+    list-style-type:none;
+    color: orangered;
+    background-color: rgb(233, 203, 147);
+    font-size: 30px;
+    overflow: hidden;
+}
+li{
+    background-color: rgb(233, 203, 147);
+    float: left;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+li:hover{
+    color: rgb(233, 203, 147);
+    background-color: orangered;
+}
+input,button{
+   background-color: rgb(232, 245, 240);
+}
+button:hover{
+    color: rgb(190, 240, 140);
+    background-color: rgb(174, 119, 213);
+}
+button:active{
+    color: red;
+    background-color: blue;
+}
+input{
+    margin-left: 100px;
+    border-radius: 10px 0px 0px 10px;
+}
+button{
+    border-radius: 0px 10px 10px 0px;
+}
+p{
+    cursor:arrow;
+    color: beige;
+}
+#google{
+    text-decoration: none;
+    color: beige;
+}
+#google:hover{
+    color: red;
+    cursor: pointer;
+    animation-name: move;
+    animation-duration: 3s;
+}
+
+@keyframes move{
+    0%{
+        left: 0px;
+        border-radius: 0px;
+    }
+    100%{
+        margin-left: 500px;
+        border-radius: 50px;
+        background-color: blue;
+        color: red;
+    }
+}
+#div1{
+    height: 100px;
+    width: 100px;
+    color: aqua;
+    background-color: aqua;
+}
+#div1:hover{
+    animation-name: move;
+    animation-duration: 3s;
+}

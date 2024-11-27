@@ -1,0 +1,30 @@
+#nav{
+    list-style-type:none;
+    color: orangered;
+    background-color: rgb(233, 203, 147);
+    font-size: 30px;
+    overflow: hidden;
+}
+li{
+    background-color: rgb(233, 203, 147);
+    float: left;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+li:hover{
+    color: rgb(233, 203, 147);
+    background-color: orangered;
+}
+#Home{
+    color: orangered;
+    text-decoration: none;
+}
+#Home:hover{
+    color: rgb(233, 203, 147);
+    background-color: orangered;
+}
+p{
+    color: beige;
+    size: 5px;
+}
